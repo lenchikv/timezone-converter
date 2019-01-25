@@ -1,0 +1,172 @@
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.iconbuttonsyle {
+    margin-left:-12px;
+    margin-right:20px
+}
+
+.headertypoclass {
+    flex:1;
+}
+
+.sidelistwrapper {
+    width:250px;
+}
+
+.appbarwrapper {
+    flex-grow:1;
+}
+
+.NavLinkWrapper {
+    width:100%;
+    max-width:360px;
+}
+
+.NavLinkItem {
+    max-width: 360px;
+}
+
+.NavLinkItem-selected nav {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.grid-styling {
+    margin-top: 2rem !important;
+}
+
+.typography-styling {
+    padding: .5rem;
+}
+
+.form-styling {
+    text-align: left;
+    margin-top: 1rem !important;
+}
+
+.innernavitem {
+    color:black !important;
+}
+.innernavitem h3{
+    color:black !important;
+}
+
+.bodyComponent {
+    min-height: 85vh;
+}
+
+.login-page-class{
+    text-align:center;
+}
+
+.contact-page-paper {
+    text-align: center;
+}
+
+.loginheaderpart h1 {
+    color:white;
+}
+
+.contact-page-name-list-field {
+    width:300px;
+}
+
+.loginformgroup {
+    margin-top:0.5em;
+    position: relative;
+    margin-bottom: 40px;
+    align-items: flex-end;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.loginformgroup div {
+    color:black;
+    margin-left:0.25em;
+    width:15em;
+
+}
+.loginformgroup svg {
+    color:black;
+}
+
+form {
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.loginbutton {
+    position: relative;
+    padding: 8px 45px;
+    line-height: 30px;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #ff0077;
+    color: #ecf0f1;
+    transition: background-color .3s;
+}
+
+.logintypography {
+    color:white !important;
+}
+
+.homepagepaper {
+
+    padding:10px;
+    font-family: inherit;
+}
+
+.getstartedpagepaper {
+    padding:30px;
+}
+
+
+/* Media queries for desktop */
+@media only screen and (min-width: 768px) {
+
+    .contact-page-name-list-field {
+        width:400px;
+    }
+
+    .loginPaper{
+        width: 420px;
+    }
+
+    .loginheaderpart {
+        text-align: center;
+        margin-top: 3em;
+        opacity: 0.7;
+        padding: 15px;
+        background: #0766b9;
+    }
+
+    .loginformgroup div {
+        color:black;
+        margin-left:0.25em;
+        width:19em;
+
+    }
+
+}
+
+
+/* Media query for tablets */
+@media only screen and (min-width: 600px) {
+    .contact-page-name-list-field {
+        width:400px;
+    }
+
+    .loginformgroup div {
+        color:black;
+        margin-left:0.25em;
+        width:19em;
+    }
+
+}

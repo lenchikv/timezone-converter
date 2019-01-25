@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div>
+  <div
+    className="appbarwrapper"
+  >
+    <WithStyles(AppBar)
+      position="static"
+    >
+      <WithStyles(Toolbar)>
+        <WithStyles(IconButton)
+          aria-label="Menu"
+          className="iconbuttonsyle"
+          color="inherit"
+        >
+          <pure(CompareArrows) />
+        </WithStyles(IconButton)>
+        <WithStyles(Typography)
+          className="headertypoclass"
+          color="inherit"
+          variant="title"
+        >
+          React Timezone Converter
+        </WithStyles(Typography)>
+      </WithStyles(Toolbar)>
+    </WithStyles(AppBar)>
+  </div>
+</div>
+`;

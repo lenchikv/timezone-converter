@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimezonesOutput renders correctly 1`] = `
+<WithStyles(List)
+  style={
+    Object {
+      "margin": "auto",
+      "width": 250,
+    }
+  }
+>
+  <WithStyles(ListItem)
+    key="Etc/Greenwich"
+  >
+    <WithStyles(ListItemAvatar)>
+      <WithStyles(Avatar)>
+        <pure(Schedule) />
+      </WithStyles(Avatar)>
+    </WithStyles(ListItemAvatar)>
+    <WithStyles(ListItemText)
+      primary="1:18 pm"
+      secondary="Greenwich"
+    />
+  </WithStyles(ListItem)>
+  <WithStyles(ListItem)
+    key="Etc/UTC"
+  >
+    <WithStyles(ListItemAvatar)>
+      <WithStyles(Avatar)>
+        <pure(Schedule) />
+      </WithStyles(Avatar)>
+    </WithStyles(ListItemAvatar)>
+    <WithStyles(ListItemText)
+      primary="1:18 pm"
+      secondary="UTC"
+    />
+    <WithStyles(ListItemSecondaryAction)
+      onClick={[Function]}
+    >
+      <WithStyles(IconButton)
+        aria-label="Delete"
+      >
+        <pure(HighlightOff) />
+      </WithStyles(IconButton)>
+    </WithStyles(ListItemSecondaryAction)>
+  </WithStyles(ListItem)>
+  <WithStyles(ListItem)
+    key="Etc/GMT+6"
+  >
+    <WithStyles(ListItemAvatar)>
+      <WithStyles(Avatar)>
+        <pure(Schedule) />
+      </WithStyles(Avatar)>
+    </WithStyles(ListItemAvatar)>
+    <WithStyles(ListItemText)
+      primary="7:18 am"
+      secondary="GMT+6"
+    />
+    <WithStyles(ListItemSecondaryAction)
+      onClick={[Function]}
+    >
+      <WithStyles(IconButton)
+        aria-label="Delete"
+      >
+        <pure(HighlightOff) />
+      </WithStyles(IconButton)>
+    </WithStyles(ListItemSecondaryAction)>
+  </WithStyles(ListItem)>
+</WithStyles(List)>
+`;
