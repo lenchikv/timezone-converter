@@ -1,7 +1,15 @@
-# React - Redux with Material-UI
-download and install the dependenices by running npm install
-run the dev-server by running the command npm run dev-server
-run the tests by running the command npm run test
+# Timezone converter
+
+Play with timezones
+https://lenchikv.github.io/timezone-converter/
+
+download and install the dependenices by running 
+npm install
+run the dev-server by running the command 
+npm run dev-server
+run the tests by running the command 
+npm run test
+
 
 React - Redux with Material-UI boilerplate (https://github.com/jishnukoottala/React-Redux-Material-UI-starter-template) as base.
 Added eslint and jest support.
